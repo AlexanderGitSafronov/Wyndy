@@ -1,0 +1,64 @@
+header {
+  padding: 24px 0px;
+  border-bottom: 3px solid #e7e7e7;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__container a,
+.header__container button {
+  font-size: 15px;
+  color: #434343;
+  text-decoration: none;
+}
+.header__left {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 100px;
+}
+.logo img {
+  width: 100%;
+}
+.header__right {
+  display: flex;
+  column-gap: 20px;
+}
+.header__right button {
+  border: none;
+  background-color: transparent;
+}
+.like a,
+.search a {
+  display: flex;
+  align-items: center;
+}
+.search,
+.like {
+  margin-left: 30px;
+}
+.search img,
+.like img {
+  margin-right: 10px;
+}
+.header__right_mobil {
+  display: none;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0,0,0,1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+.search_mobil a,
+.like_mobil a {
+  color: #434343;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+.header__right_mobil_modal {
+  margin-top: 50px;
+  display: flex !important;
+  flex-direction: row !important;
+}

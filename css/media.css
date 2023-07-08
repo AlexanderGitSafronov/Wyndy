@@ -1,0 +1,127 @@
+@media (max-width: 1199px) {
+  .hero__container {
+    min-height: 372px;
+  }
+  .gren__block {
+    width: 596px;
+    padding: 28px 30px 10px;
+  }
+  .big__img_container {
+    min-height: 525px;
+  }
+  .footer__block_big {
+    padding-left: 40px;
+  }
+  .footer__block {
+    padding-left: 22px;
+  }
+}
+@media (max-width: 991px) {
+  h2 {
+    font-size: 28px;
+  }
+  .hero__container {
+    min-height: 378px;
+  }
+  .hero__container {
+    background-position: center -38px;
+  }
+  .gren__block {
+    top: 80%;
+  }
+  .wyndy__difference_desc {
+    padding: 0px;
+  }
+  .big__img_container {
+    min-height: 406px;
+  }
+  .footer__block {
+    border-right: none;
+  }
+  .footer__app {
+    padding-left: 24px;
+  }
+  .footer__block_link,
+  .footer__app {
+    margin-top: 30px;
+  }
+  .footer__md {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .logo {
+    width: 140px;
+  }
+  .search {
+    display: none;
+  }
+  .like {
+    display: none;
+  }
+  header {
+    padding: 18px 0px;
+  }
+
+  .header__container {
+    display: flex;
+    align-items: center;
+  }
+  .hero__container {
+    background-position: center -20px;
+  }
+  .hero__container {
+    min-height: 355px;
+  }
+  .circle__container_gap {
+    row-gap: 20px;
+  }
+  .big__img_container {
+    min-height: 304px;
+  }
+}
+@media (max-width: 575px) {
+  .hero__container {
+    min-height: 375px;
+  }
+  .gren__block {
+    width: 390px;
+  }
+  .big__img_container {
+    min-height: 206px;
+  }
+  .footer__block_mobils {
+    margin-top: 30px;
+  }
+  .footer__bottom_mobils {
+    margin-top: 30px;
+  }
+  .header__right {
+    display: none;
+  }
+  .header__right_mobil {
+    display: block;
+  }
+  .search_mobil,
+  .like_mobil,
+  .header__right_mobil {
+    display: block !important;
+    margin-left: 0;
+  }
+}
+@media (max-width: 574px) {
+  .gren__block {
+    font-size: 26px;
+    width: 320px;
+    padding: 20px 19px 1px;
+  }
+  .main__container {
+    margin-top: 40px;
+  }
+  .main__button {
+    padding: 17px 75px;
+  }
+  .big__img_container {
+    min-height: 169px;
+  }
+}

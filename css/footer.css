@@ -1,0 +1,46 @@
+footer {
+  background-color: #2ba3a6;
+  padding: 44px 0px;
+  color: #fff;
+  font-size: 15px;
+}
+footer h5 {
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #fff;
+}
+.footer__block {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px dashed #fff;
+  padding-left: 40px;
+}
+.footer__block_first {
+  padding-left: 25px;
+}
+.footer__block_link {
+  row-gap: 5px;
+}
+.footer__block_big {
+  padding-left: 60px;
+}
+.google__pay {
+  margin-top: 8px;
+}
+.footer__app {
+  padding-left: 34px;
+}
+.footer__bottom {
+  margin-top: 50px;
+}
+.footer__bottom_flex {
+  display: flex;
+  flex-direction: column;
+}

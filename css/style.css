@@ -1,0 +1,113 @@
+h2 {
+  font-size: 30px;
+  color: #000;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+p {
+  font-size: 18px;
+  color: #434343;
+}
+.main__button {
+  background-color: #2ba3a6;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 17px 94px;
+  border-radius: 24px;
+  font-size: 16px;
+}
+.hero__container {
+  min-height: 460px;
+  background-image: url("../images/bgHeader.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center -70px;
+}
+.hero__container {
+  position: relative;
+}
+
+.gren__block {
+  position: absolute;
+  background-color: rgba(43, 163, 166, 0.96);
+  opacity: 0.96;
+  right: 0;
+  top: 70%;
+  transform: translateY(-50%);
+  width: 632px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: 40px 40px 20px;
+}
+.gren__block p {
+  font-size: 30px;
+  line-height: 40px;
+  color: #fff;
+}
+.main__container p {
+  text-align: center;
+}
+.button__position {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.circle__container {
+  margin: 70px 0px;
+}
+.circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 0px;
+  width: 300px;
+  height: 300px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.circle_1 {
+  background-image: url("../images/families.png");
+}
+.circle_2 {
+  background-image: url("../images/babysiters.png");
+}
+.circle_3 {
+  background-image: url("../images/hoursspent.png");
+  text-align: center;
+}
+.circle__container h3 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #fff;
+}
+.circle__container p {
+  font-size: 30px;
+  color: #fff;
+}
+.circle__container .center__block {
+  display: flex;
+  justify-content: center;
+}
+.circle_3 h3 {
+  margin-top: 40px;
+}
+.wyndy__difference_desc {
+  display: flex;
+  padding: 0px 40px;
+}
+.wyndy__difference_desc p {
+  /* padding: 0px 50px; */
+  margin-left: 10px;
+}
+.big__img_container {
+  margin-top: 50px;
+  min-height: 630px;
+  background-image: url("../images/lastBg.png");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
