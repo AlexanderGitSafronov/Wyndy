@@ -9,6 +9,12 @@ p {
   font-size: 18px;
   color: #434343;
 }
+a:hover {
+  text-decoration: underline;
+}
+button:hover {
+  background-color: rgb(25, 112, 113);
+}
 .main__button {
   background-color: #2ba3a6;
   border: none;

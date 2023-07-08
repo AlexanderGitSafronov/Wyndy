@@ -7,8 +7,7 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-.header__container a,
-.header__container button {
+.header__container a {
   font-size: 15px;
   color: #434343;
   text-decoration: none;
@@ -20,17 +19,15 @@ header {
 .logo {
   width: 100px;
 }
-.logo img {
+.logo svg {
   width: 100%;
+  height: 100%;
 }
 .header__right {
   display: flex;
   column-gap: 20px;
 }
-.header__right button {
-  border: none;
-  background-color: transparent;
-}
+
 .like a,
 .search a {
   display: flex;
@@ -40,8 +37,8 @@ header {
 .like {
   margin-left: 30px;
 }
-.search img,
-.like img {
+.search svg,
+.like svg {
   margin-right: 10px;
 }
 .header__right_mobil {
@@ -61,4 +58,8 @@ header {
   margin-top: 50px;
   display: flex !important;
   flex-direction: row !important;
+}
+.header__right_mobil_modal a {
+  color: #434343;
+  text-decoration: none;
 }
